@@ -81,10 +81,10 @@ e) `blur.py`: This file takes an image (as numpy array) as input and applies a g
 
 #### Note: This project uses PIL instead of OpenCV as OpenCV uses `BGR` format instead of `RGB`.
 
-## Use case #1:
+### Use case #1:
 This software saves the predicted bounding boxes for all the images provided in the `data/imgs` folder, into `outputs` folder.
 
-## Use case #2:
+### Use case #2:
 The following transforms of `img/6.jpg` are plotted using `subplots` in matplotlib and saved into the `outputs` folder:
 
 1. Horizontally flipped original image along with the top-3 predicted segmentation masks and bounding boxes.
